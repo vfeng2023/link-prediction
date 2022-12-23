@@ -1,0 +1,12 @@
+# using c = .15 in randomwalkwithrestart
+inf-USAir97.mtx - 0.9260000000000002
+road-chesapeake.mtx - 0.9654999999999999
+eco0florida.edges - 0.9737500000000001
+mammalia-dolphin-florida-social.edges - 0.9723
+lotredges.txt - 0.97305
+# using c=0.9 (paper value)
+lotredges.txt - 0.59675
+road-chesapeake.txt - 0.9078500000000002
+inf-USAir97.txt - 0.5
+mammalia-dolphin-folrida-social - 0.9873999999999998
+eco-florida - 0.8741499999999999

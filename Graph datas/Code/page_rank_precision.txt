@@ -1,0 +1,6 @@
+eco-florida.edges -- 0.01
+inf-USAir97.txt - 0.02
+lotredges.txt - 0.01
+mammalia-dolphin-florida-social.edges - 0.06
+road-chesapeake.txt - 0.058823529411764705
+usairpaper.txt - 0.09

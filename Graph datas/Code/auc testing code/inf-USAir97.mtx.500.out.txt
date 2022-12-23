@@ -1,0 +1,6 @@
+commonNeighborsimilarity 0.9491000000000002
+hubDepressedsimilarity 0.9127000000000001
+hubpromottedsimilarity 0.9273
+lhn1similarity 0.8713
+adamicadarSimilarity 0.9622999999999999
+mySimilarityIndex 0.9558

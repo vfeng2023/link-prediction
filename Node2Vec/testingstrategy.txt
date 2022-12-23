@@ -1,0 +1,36 @@
+Now that Node2Vec is implemented, I need to figure out how to test it.
+Two flavors of random walk: the one in the paper, and random walk with restart
+
+Pq walk: 
+- Weighted
+- Need different values of p and q
+- p,q in {0.5,0.25,1,4} grid hyperparameter search
+- For hyperparameter choice of each graph:
+- Use the settings given in Node2Vec to find the best graph:
+    d = 128, r = 10, l = 80, k = 10
+- Optimize the embedding parameters using Logistic Regression classifier and dot product combiner
+- Using these parameters:
+    - plot of d and AUC, d in {8,16,32,64,128}
+    - plot of l and AUC
+    plot of percent used as training set and AUC
+
+Unweighted walk:
+- for c in range(0.1,0.9,0.1)
+- use these settings: d = 128, r = 10, l = 80
+- FInd best c using Logisitc Regression classifier and dot product combiner
+Produce these plots:
+- Plot of c and AUC
+- Plot of d and AUC, d in {8,16,32,64,128}
+- plot of l and AUC, l = {10,..100}
+- plot of percent used as training set and AUC
+
+
+Logistic regression testing:
+- Read graph
+- split
+- get graph's embeddings
+- combine with op
+- label as such: has edge -- 1. No edge -- 0
+    - use equal number of edge and no edge
+- train logreg
+- predict on the test set by computing AUC

@@ -1,0 +1,7 @@
+Note: N = 1000
+commonNeighborsimilarity 0.951
+hubDepressedsimilarity 0.9099999999999999
+hubpromottedsimilarity 0.9351
+lhn1similarity 0.8641500000000001
+adamicadarSimilarity 0.9611000000000001
+mySimilarityIndex 0.95135
